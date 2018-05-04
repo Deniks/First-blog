@@ -1,0 +1,7 @@
+@mixin grid_system ($times:5){
+	display: grid;
+	grid-template-columns: repeat($times, minmax(210px, 1fr));
+	grid-template-rows: repeat(1,1fr);
+	padding: 0 5%;
+	grid-gap: 0;
+}
